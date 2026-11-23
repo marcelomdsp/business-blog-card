@@ -72,6 +72,7 @@ body {
   font-style: normal;
   margin-top: 12px;
   margin-bottom: 24px;
+  padding-right: 32px;
 }
 
 .avatar {
@@ -114,6 +115,10 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    margin-top: 208px;
+    margin-top: 206px;
+  }
+
+  .description {
+    padding-right: 0;
   }
 }
